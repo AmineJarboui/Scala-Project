@@ -20,7 +20,7 @@ object Main {
         var y_run = prog_list(i * 2)(2) - '0'
         var facing_run = prog_list(i * 2)(4).toString
 
-        //instantiating each lawnmower from tondeuse class
+        //instantiating each lawnmower from lawnmower class
         var lawnmowerRun = new lawnmower(x = x_run, y = y_run, facing = facing_run, x_plan = size(0), y_plan = size(2))
 
         //reading the list of actions for each lawnmower
